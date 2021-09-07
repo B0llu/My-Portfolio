@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap');
-*{margin: 0px;padding: 0px;}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 :root {
     --primary-colour: #F87171;
     --gray-colour:
@@ -20,7 +25,7 @@ hr {
 
 .container {
     padding: 0rem 1rem;
-    
+
     margin: auto;
 }
 
@@ -90,7 +95,7 @@ hr {
     color: white;
 }
 
-.link-active{
+.link-active {
     font-weight: bold;
 }
 
@@ -143,10 +148,10 @@ hr {
     color: white;
 }
 
-p{
+p {
     padding: 1rem;
 }
 
-div{
+div {
     padding-bottom: 1rem;
 }
