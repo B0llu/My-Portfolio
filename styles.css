@@ -2,8 +2,9 @@
 
 :root {
     --primary-colour: #F87171;
-    --gray-coulour: 
-    #6B7280;
+    --gray-colour:
+        #6B7280;
+    --off-white: #F3F4F6;
 }
 
 body {
@@ -78,6 +79,7 @@ hr {
 .navigation .link {
     color: white;
 }
+
 .navigation .link-active {
     font-weight: bold;
 }
@@ -97,5 +99,20 @@ hr {
 
 .hero .hero-heading {
     font-size: 3rem;
-    color: var(--gray-coulour);
+    color: var(--gray-colour);
 }
+
+/** sections **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
