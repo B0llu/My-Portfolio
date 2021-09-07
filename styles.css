@@ -29,6 +29,8 @@ hr {
     color: darkmagenta;
     text-decoration: none;
     padding: 0.4rem 4rem;
+    max-width: 500px;
+    margin: auto;
 }
 
 .primary-link {
@@ -41,4 +43,15 @@ hr {
     color: var(--primary-colour);
     border-radius: 2rem;
     border: 1px solid var(--primary-colour);
+} 
+
+/** lists **/
+
+.non-bullet {
+    list-style: none;
+}
+
+.item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
 }
