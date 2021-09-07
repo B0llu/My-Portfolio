@@ -3,6 +3,7 @@
 :root {
     --primary-colour: #F87171;
 }
+
 body {
     font-family: 'Bitter', serif;
 }
@@ -15,7 +16,7 @@ hr {
 
 .container {
     padding: 0rem 1rem;
-    max-width: 500px;
+    max-width: 700px;
     margin: auto;
 }
 
@@ -29,8 +30,6 @@ hr {
     color: darkmagenta;
     text-decoration: none;
     padding: 0.4rem 4rem;
-    max-width: 500px;
-    margin: auto;
 }
 
 .primary-link {
@@ -43,7 +42,7 @@ hr {
     color: var(--primary-colour);
     border-radius: 2rem;
     border: 1px solid var(--primary-colour);
-} 
+}
 
 /** lists **/
 
@@ -54,4 +53,29 @@ hr {
 .item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+/** Nav **/
+
+.navigation {
+    background-color: var(--primary-colour);
+    color: white;
+    padding: 1rem;
+    border-radius: 4rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+.navigation .link-active {
+    font-weight: bold;
 }
