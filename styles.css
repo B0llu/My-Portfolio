@@ -76,6 +76,13 @@ hr {
     border-bottom-right-radius: 2rem;
 }
 
+.item-inline {
+    border: 0.1px solid var(--off-white);
+    border-radius: 2rem;
+    margin: 3px;
+    padding: 0.1rem 1rem;
+}
+
 .text-center {
     text-align: center;
     margin: auto;
