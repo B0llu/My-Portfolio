@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap');
 
+:root {
+    --primary-colour: #F87171;
+}
 body {
     font-family: 'Bitter', serif;
 }
 
 /** container **/
+
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
     max-width: 500px;
     margin: auto;
 }
@@ -15,4 +18,23 @@ body {
 .container-center {
     max-width: 500px;
     margin: auto;
+}
+
+/** links **/
+.link {
+    color: darkmagenta;
+    text-decoration: none;
+    padding: 0.4rem 4rem;
+}
+
+.primary-link {
+    color: var(--primary-colour);
+    border-radius: 2rem;
+    border: 1px solid var(--primary-colour);
+}
+
+.secondary-link {
+    color: var(--primary-colour);
+    border-radius: 2rem;
+    border: 1px solid var(--primary-colour);
 }
