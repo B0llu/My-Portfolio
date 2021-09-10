@@ -167,22 +167,25 @@ p {
 div {
     padding-bottom: 1rem;
 }
+
 /* space */
-.space{
+.space {
     padding-bottom: 1rem;
 }
 
 /* curve */
-.curve{
+.curve {
     border-radius: 1rem;
 }
+
 /* font size */
-.font-size{
+.font-size {
     font-size: 1.3rem;
 }
+
 /* section head */
-.section-head{
+.section-head {
     font-size: 1.3rem;
-    
+
 
 }
