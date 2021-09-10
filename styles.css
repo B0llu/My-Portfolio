@@ -16,9 +16,6 @@ body {
     font-family: 'Bitter', serif;
     margin: 0px;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background: radial-gradient(#7C3AED,#059669)
 }
 
 hr {
@@ -73,7 +70,7 @@ hr {
 /** Nav **/
 
 .navigation {
-    background: radial-gradient(#7C3AED,#059669);
+    background-color: var(--primary-colour);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 2rem;
@@ -140,20 +137,19 @@ hr {
 }
 
 .ow {
-    background-color: #7C3AED;
+    background-color: var(--off-white);
 }
 
 /** footer **/
 
 .footer {
-    background: radial-gradient(#7C3AED,#059669);
+    background-color: var(--primary-colour);
     padding: 2rem 0rem;
     font-size: large;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     text-align: center;
     color: white;
-    margin-top: auto;
 }
 
 .footer .link {
