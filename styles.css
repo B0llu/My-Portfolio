@@ -16,6 +16,8 @@ body {
     font-family: 'Bitter', serif;
     margin: 0px;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 hr {
@@ -150,6 +152,7 @@ hr {
     border-top-right-radius: 2rem;
     text-align: center;
     color: white;
+    margin-top: auto;
 }
 
 .footer .link {
