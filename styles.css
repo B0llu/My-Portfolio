@@ -16,6 +16,8 @@ body {
     font-family: 'Bitter', serif;
     margin: 0px;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 hr {
@@ -26,7 +28,6 @@ hr {
 
 .container {
     padding: 0rem 1rem;
-
     margin: auto;
 }
 
@@ -130,6 +131,7 @@ hr {
 
 .section {
     padding: 2rem;
+    margin-bottom: 1rem;
 }
 
 .section h1 {
@@ -138,6 +140,7 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+
 }
 
 /** footer **/
@@ -150,6 +153,7 @@ hr {
     border-top-right-radius: 2rem;
     text-align: center;
     color: white;
+    margin-top: auto;
 }
 
 .footer .link {
@@ -162,4 +166,23 @@ p {
 
 div {
     padding-bottom: 1rem;
+}
+/* space */
+.space{
+    padding-bottom: 1rem;
+}
+
+/* curve */
+.curve{
+    border-radius: 1rem;
+}
+/* font size */
+.font-size{
+    font-size: 1.3rem;
+}
+/* section head */
+.section-head{
+    font-size: 1.3rem;
+    
+
 }
