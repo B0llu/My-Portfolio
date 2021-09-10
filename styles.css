@@ -18,6 +18,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background: radial-gradient(#7C3AED,#059669)
 }
 
 hr {
@@ -72,7 +73,7 @@ hr {
 /** Nav **/
 
 .navigation {
-    background-color: var(--primary-colour);
+    background: radial-gradient(#7C3AED,#059669);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 2rem;
@@ -139,13 +140,13 @@ hr {
 }
 
 .ow {
-    background-color: var(--off-white);
+    background-color: #7C3AED;
 }
 
 /** footer **/
 
 .footer {
-    background-color: var(--primary-colour);
+    background: radial-gradient(#7C3AED,#059669);
     padding: 2rem 0rem;
     font-size: large;
     border-top-left-radius: 2rem;
