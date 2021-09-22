@@ -1,3 +1,2 @@
-# Stylized-site
-using HTML and CSS to make a component library. 
-This site was my first try at CSS.
+<h1> This is my Portfolio <h1>
+  <p> In this you can find every project I have ever done. <p>
