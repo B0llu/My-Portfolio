@@ -15,8 +15,6 @@ body{
     min-height: 100vh;
     /* display: flex; */
     flex-direction: column;
-    background-color: black;
-    color: white;
 }
 hr{
     margin: 2rem 0rem;
@@ -46,10 +44,10 @@ hr{
 .primarylink{
     border: 1px solid var(--primary-color);
     border-radius: 20px;
-    color: white; 
+    color: black; 
 }
 .secondarylink{
-    color: white;
+    color: black;
     border-radius: 20px;
     border: 1px solid var(--primary-color);
 }
@@ -125,7 +123,7 @@ hr{
 }
 
 .ow{
-    background-color: black;
+    background-color: var(--ow);
 }
 
 /* footer */
