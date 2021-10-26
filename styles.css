@@ -36,18 +36,26 @@ hr{
     padding: 0.5rem 1rem;
 }
 
-.link:hover{
+.primarylink:hover{
     background-color: var(--primary-color);
-    transition: 0.5s;
-    
+    transition: 0.5s;  
+    color: white;
 }
 .primarylink{
     border: 1px solid var(--primary-color);
     border-radius: 20px;
     color: black; 
 }
-.secondarylink{
+
+.secondarylink:hover{
+    background-color: white;
+    transition: 0.5s;
     color: black;
+}
+
+.secondarylink{
+    color: white;
+    background-color: var(--primary-color);
     border-radius: 20px;
     border: 1px solid var(--primary-color);
 }
