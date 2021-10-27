@@ -38,21 +38,29 @@ hr{
 
 .link:hover{
     background-color: var(--primary-color);
-    transition: 0.5s;
-    
+    transition: 0.5s;   
 }
 .primarylink{
     border: 1px solid var(--primary-color);
     border-radius: 10px;
     color: black; 
 }
+
+.primarylink:hover{
+    color: white;
+}
 .secondarylink{
     color: white;
     background-color: var(--primary-color);
     border-radius: 10px;
-    color: black;
-    border-radius: 20px;
+    color: white;
+    border-radius: 10px;
     border: 1px solid var(--primary-color);
+}
+
+.secondarylink:hover{
+    background-color: white;
+    color: black;
 }
 
 /* list */
