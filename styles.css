@@ -38,27 +38,25 @@ hr{
     padding: 0.5rem 1rem;
 }
 
-.primarylink:hover{
+.link:hover{
     background-color: var(--primary-color);
-    transition: 0.5s;  
-    color: white;
+    transition: 0.5s;
+    
 }
 .primarylink{
     border: 1px solid var(--primary-color);
     border-radius: 10px;
     color: black; 
 }
-
-.secondarylink:hover{
-    background-color: white;
-    transition: 0.5s;
-    color: black;
-}
-
 .secondarylink{
+<<<<<<< HEAD
     color: white;
     background-color: var(--primary-color);
     border-radius: 10px;
+=======
+    color: black;
+    border-radius: 20px;
+>>>>>>> parent of 0eb04e5 (changed secondarylink css)
     border: 1px solid var(--primary-color);
 }
 
