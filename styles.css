@@ -2,10 +2,11 @@
 
 :root{
     --primary-color: #3B82F6;
+    --secondary-color: #1E2022;
     --grey: 
     #6B7280;
     --ow : 
-    #F3F4F6;
+    #1E2022;
 }
 
 body{
@@ -14,6 +15,8 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #181A1B;
+    color: white;
 }
 
 hr{
@@ -43,24 +46,22 @@ hr{
 .primarylink{
     border: 1px solid var(--primary-color);
     border-radius: 10px;
-    color: black; 
+    color: white; 
 }
 
 .primarylink:hover{
-    color: white;
+    color: black;
 }
 .secondarylink{
-    color: white;
     background-color: var(--primary-color);
     border-radius: 10px;
-    color: white;
-    border-radius: 10px;
+    color: black;
     border: 1px solid var(--primary-color);
 }
 
 .secondarylink:hover{
-    background-color: white;
-    color: black;
+    background-color: #1E2022;
+    color: white;
 }
 
 /* list */
@@ -73,7 +74,7 @@ hr{
 }
 /* navigation */
 .navigation{
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: black;
     padding: 20px;
     border-bottom-left-radius: 20px;
@@ -141,13 +142,12 @@ hr{
 .footer{
     margin-top: auto;
     width: auto;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     padding: 2rem;
     text-align: center;
-    color: black;
+    color: white;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px; 
-   
+    border-top-right-radius: 20px;   
 }
 .footer .footer-header{
     font-weight: bold;
@@ -156,6 +156,7 @@ hr{
 .footer .link{
     color: white;
     border-radius: 10px;
+    font: bold;
 }
 
 .footer .link:hover{
