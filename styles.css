@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 
 :root {
   --primary-color: #3b82f6;
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0px;
   min-height: 100vh;
   display: flex;
@@ -39,6 +39,7 @@ hr {
 .link:hover {
   background-color: var(--primary-color);
   transition: 0.5s;
+  font: bold;
 }
 .primarylink {
   border: 1px solid var(--primary-color);
